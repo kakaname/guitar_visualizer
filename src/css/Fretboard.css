@@ -1,0 +1,19 @@
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-item {
+  width: 60px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  border: 1px solid black; /* Optional: adds a border to each grid item */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
